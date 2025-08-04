@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+<body>
+    <header><h1>PLUS ULTRA</h1></header>
+    
+    <nav>
+        <ul>
+            <a href="../index.html"><li>Inicio</li></a>
+            <a href="./nosotros.html"><li>Nosotros</li></a>
+            <a href="./galeria.html"><li>Galeria</li></a>
+            <a href="./tienda.html"><li>Tienda</li></a>
+            <a href="./contacto.html"><li>Contacto</li></a>
+        </ul>
+    </nav>
+
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="1"><br><br>
+        <label for="apellido_paterno">Apellido Paterno:</label>
+        <input type="text" name="apellido_paterno" id="2"><br><br>
+        <label for="apellido_materno">Apellido Materno:</label>
+        <input type="text" name="apellido_materno" id="3"><br><br>
+        <label for="contactnumber">Número de contacto:</label>
+        <input type="number" name="contactnumber" id="4"><br><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="text" name="email" id="5"><br><br>
+        <label for="pais">Pais:</label>
+        <select name="pais" id="6">
+            <option value="">Mexico</option>
+            <option value="">Brasil</option>
+            <option value="">Argentina</option>
+            <option value="">Chile</option>
+            <option value="">Estados Unidos</option>
+        </select><br><br>
+        <label for="grandmessage">Mensaje</label><br>
+        <textarea name="mensaje" id="7"></textarea><br><br>
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+    <footer>Innovación sin fronteras</footer>
+</body>
+</html>
